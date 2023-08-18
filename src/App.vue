@@ -194,11 +194,11 @@ const textToAudio = async (token) => {
 // 3.语音识别
 let recordBtn = ref("开始录音");
 // 存放录音器的实例
-let mediaRecorder = null;
+// let mediaRecorder = null;
 // 存储音频数据
-let chunks = [];
-let speech = "";
-let fileSize = 0;
+// let chunks = [];
+// let speech = "";
+// let fileSize = 0;
 const audioRecordSrc = ref("");
 const recordText = ref("");
 //
